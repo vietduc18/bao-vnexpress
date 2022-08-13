@@ -1,0 +1,141 @@
+.wrapper {
+    height: 55px;
+    padding: 11px 0;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+}
+
+.inner {
+    height: 100%;
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    padding-top: 2px;
+}
+
+.time-now {
+    font-size: 14px;
+    line-height: 32px;
+    color: #757575;
+    position: relative;
+    margin-left: 20px;
+    padding-left: 15px;
+    float: left;
+
+    &::before {
+        content: '';
+        width: 1px;
+        height: 26px;
+        background: #e5e5e5;
+        position: absolute;
+        left: 0;
+        top: 2px;
+    }
+}
+
+.right {
+    display: flex;
+    float: right;
+}
+
+.btn-24hqua,
+.evne {
+    height: 32px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #757575;
+    display: inline-block;
+
+    &:hover {
+        color: #4f4f4f;
+        background: #f7f7f7;
+    }
+}
+
+.icon24h {
+    color: #bdbdbd;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.evne {
+    margin-left: 15px;
+
+    img {
+        width: 14px;
+        height: 16px;
+        margin-right: 5px;
+    }
+}
+
+.serach {
+    position: relative;
+    margin-left: 15px;
+    padding-left: 15px;
+
+    &::before {
+        content: '';
+        width: 1px;
+        height: 24px;
+        background: #e5e5e5;
+        position: absolute;
+        left: 0;
+        top: 4px;
+    }
+
+    input {
+        height: 32px;
+        line-height: 32px;
+        border-radius: 16px;
+        border: 1px solid #e5e5e5;
+        padding: 0 30px 0 14px;
+        margin: 0;
+        width: 160px;
+    }
+
+    button {
+        background: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 32px;
+        height: 32px;
+
+        .icon-serach {
+            color: #bdbdbd;
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
+.login {
+    margin-left: 20px;
+
+    a {
+        height: 32px;
+        line-height: 32px;
+        color: #4f4f4f;
+
+        &:hover {
+            color: #087cce;
+        }
+
+        .icon-login {
+            color: #bdbdbd;
+            margin-right: 10px;
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
